@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Screen Record</title>
+        <!-- <meta
+            http-equiv="Content-Security-Policy"
+            content="default-src 'self'; img-src 'self'; child-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; connect-src 'self'"
+        /> -->
+    </head>
+    <body>
+        <div class="root" id="root">
+            <div class="app-title">Select to start recording</div>
+
+            <div id="app-selection-container">
+                <div class="app-btn-action">
+                    <div class="app-selection">
+                        <button class="_btn-selection" data-value="mute">
+                            Mute
+                        </button>
+                        <button class="_btn-selection" data-value="microphone">
+                            Microphone
+                        </button>
+                    </div>
+                </div>
+                <div class="app-recording">
+                    <button
+                        class="record-btn _btn-selection"
+                        data-value="startRecoding"
+                    >
+                        Start Recordings
+                    </button>
+                </div>
+            </div>
+            <div class="app-start-recording" id="app-start-recording"></div>
+        </div>
+    </body>
+</html>

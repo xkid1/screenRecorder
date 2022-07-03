@@ -1,0 +1,20 @@
+@import './style';
+:root {
+    --text-color: #24292e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: nova;
+}
+@font-face {
+    font-family: nova;
+    src: url('../font/nova.otf');
+}
