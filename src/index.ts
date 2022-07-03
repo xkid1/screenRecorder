@@ -75,7 +75,7 @@ const _recordScreen = (selected: string) => {
 
 const startRecording = async (mediaConstraints: {
     video: boolean;
-    audio: boolean | object;
+    audio: boolean;
 }) => {
     try {
         captureStream = await navigator.mediaDevices.getDisplayMedia(
