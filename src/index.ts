@@ -7,6 +7,10 @@ const selection = document.querySelectorAll(
     '._btn-selection'
 )! as NodeListOf<HTMLButtonElement>;
 
+const containerForErrorMessage: HTMLDivElement = document.createElement('div');
+
+const errorContainer: HTMLElement[] = [];
+
 interface MediaConstraints {
     video: boolean;
     audio: boolean;
